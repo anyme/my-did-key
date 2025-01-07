@@ -1,1 +1,24 @@
-hello world
+Generated DID Document: {
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:example.com:X0huMXNVQ2VJanBYVnUtMXJBY3A5M2lYZGxlODZCTWMzeFpuLWlnXzZiZw==",
+  "verificationMethod": [
+    {
+      "id": "did:web:example.com:X0huMXNVQ2VJanBYVnUtMXJBY3A5M2lYZGxlODZCTWMzeFpuLWlnXzZiZw==#keys-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:example.com:X0huMXNVQ2VJanBYVnUtMXJBY3A5M2lYZGxlODZCTWMzeFpuLWlnXzZiZw==",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "ext": true,
+        "key_ops": [
+          "verify"
+        ],
+        "kty": "EC",
+        "x": "_Hn1sUCeIjpXVu-1rAcp93iXdle86BMc3xZn-ig_6bg",
+        "y": "Uom9_J4_V8z6tdM1Q_gbO66Hg0o3CNszZphcMZPQzq4"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:example.com:X0huMXNVQ2VJanBYVnUtMXJBY3A5M2lYZGxlODZCTWMzeFpuLWlnXzZiZw==#keys-1"
+  ]
+}
