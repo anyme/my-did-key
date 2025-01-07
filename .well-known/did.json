@@ -1,11 +1,11 @@
 {
   "@context": "https://www.w3.org/ns/did/v1",
-  "id": "did:web:example.com:X0huMXNVQ2VJanBYVnUtMXJBY3A5M2lYZGxlODZCTWMzeFpuLWlnXzZiZw==",
+  "id": "did:web:example.com:RTBNOUxYOUY5bVRPWTBBYVVEZG1jamZ5eUc5V2RvaWMxNWM3SGlMWXJaUQ==",
   "verificationMethod": [
     {
-      "id": "did:web:example.com:X0huMXNVQ2VJanBYVnUtMXJBY3A5M2lYZGxlODZCTWMzeFpuLWlnXzZiZw==#keys-1",
+      "id": "did:web:example.com:RTBNOUxYOUY5bVRPWTBBYVVEZG1jamZ5eUc5V2RvaWMxNWM3SGlMWXJaUQ==#keys-1",
       "type": "JsonWebKey2020",
-      "controller": "did:web:example.com:X0huMXNVQ2VJanBYVnUtMXJBY3A5M2lYZGxlODZCTWMzeFpuLWlnXzZiZw==",
+      "controller": "did:web:example.com:RTBNOUxYOUY5bVRPWTBBYVVEZG1jamZ5eUc5V2RvaWMxNWM3SGlMWXJaUQ==",
       "publicKeyJwk": {
         "crv": "P-256",
         "ext": true,
@@ -13,12 +13,12 @@
           "verify"
         ],
         "kty": "EC",
-        "x": "_Hn1sUCeIjpXVu-1rAcp93iXdle86BMc3xZn-ig_6bg",
-        "y": "Uom9_J4_V8z6tdM1Q_gbO66Hg0o3CNszZphcMZPQzq4"
+        "x": "E0M9LX9F9mTOY0AaUDdmcjfyyG9Wdoic15c7HiLYrZQ",
+        "y": "YHKTsM9Kumzcy4rT48WkzuurP3vhbaXmI39I5bP2SmE"
       }
     }
   ],
   "authentication": [
-    "did:web:example.com:X0huMXNVQ2VJanBYVnUtMXJBY3A5M2lYZGxlODZCTWMzeFpuLWlnXzZiZw==#keys-1"
+    "did:web:example.com:RTBNOUxYOUY5bVRPWTBBYVVEZG1jamZ5eUc5V2RvaWMxNWM3SGlMWXJaUQ==#keys-1"
   ]
 }
