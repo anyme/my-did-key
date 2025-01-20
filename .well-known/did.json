@@ -1,24 +1,35 @@
 {
-  "@context": "https://www.w3.org/ns/did/v1",
-  "id": "did:web:example.com:RVNuZjU3Z1JlVFhpeUNZWGFFcEVxUzc0SGFxREFPTXNESVF0WDRvZUpHZw==",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:anyme.github.io:my-did-key:.well-known:did.json",
   "verificationMethod": [
     {
-      "id": "did:web:example.com:RVNuZjU3Z1JlVFhpeUNZWGFFcEVxUzc0SGFxREFPTXNESVF0WDRvZUpHZw==#keys-1",
+      "id": "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg",
       "type": "JsonWebKey2020",
-      "controller": "did:web:example.com:RVNuZjU3Z1JlVFhpeUNZWGFFcEVxUzc0SGFxREFPTXNESVF0WDRvZUpHZw==",
+      "controller": "did:web:anyme.github.io:my-did-key:.well-known:did.json",
       "publicKeyJwk": {
-        "crv": "P-256",
-        "ext": true,
-        "key_ops": [
-          "verify"
-        ],
-        "kty": "EC",
-        "x": "ESnf57gReTXiyCYXaEpEqS74HaqDAOMsDIQtX4oeJGg",
-        "y": "RRS4krtlxuqaLmjSWF9qblSxcPQ4RZXDpbJf_b94H44"
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "kid": "31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg",
+        "x": "mYA82aiiCLHS05ifXudPQFGS5xLEW-6AKYwa6BWHXIU"
       }
     }
   ],
+  "assertionMethod": [
+    "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg"
+  ],
   "authentication": [
-    "did:web:example.com:RVNuZjU3Z1JlVFhpeUNZWGFFcEVxUzc0SGFxREFPTXNESVF0WDRvZUpHZw==#keys-1"
+    "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg"
+  ],
+  "capabilityInvocation": [
+    "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg"
+  ],
+  "capabilityDelegation": [
+    "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg"
+  ],
+  "keyAgreement": [
+    "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg"
   ]
 }
