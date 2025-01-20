@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:anyme.github.io:my-did-key:.well-known:did.json",
+  "verificationMethod": [
+    {
+      "id": "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:anyme.github.io:my-did-key:.well-known:did.json",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "kid": "31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg",
+        "x": "mYA82aiiCLHS05ifXudPQFGS5xLEW-6AKYwa6BWHXIU"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg"
+  ],
+  "authentication": [
+    "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg"
+  ],
+  "capabilityInvocation": [
+    "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg"
+  ],
+  "capabilityDelegation": [
+    "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg"
+  ],
+  "keyAgreement": [
+    "did:web:anyme.github.io:my-did-key:.well-known:did.json#31ZbXpAguUo7T3ZCtvmexuXPFjL5AQWcQuzYU2P_ZRg"
+  ]
+}
